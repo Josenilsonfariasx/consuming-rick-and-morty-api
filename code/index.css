@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7be1ef;
+    
+}
+
+.container {
+    max-width: 1500px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 3%;
+    padding: 1em;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 1%;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.card h3 {
+    margin: 0;
+    color: hsl(293, 76%, 64%);
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-height: 2.5em;
+    width: 90%;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+.menu a {
+    position: relative;
+    display: inline-block;
+    background-color: #00bfff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .menu a:hover {
+    background-color: #0080ff;
+  }
+  
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #505050;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+      margin-left: 0;
+      justify-content: center;
+    }
+    .card {
+      max-width: 100%;
+      height: auto;
+      margin: 1em 0;
+      flex-basis: 80%;
+    }
+  }
