@@ -16,7 +16,7 @@ body {
     flex-wrap: wrap;
     align-items:  center;
     margin: 0 auto;
-    margin-left: 3%;
+    margin-left: 12%;
     padding: 1em;
 }
 
@@ -335,7 +335,7 @@ max-height: 60%;
     /* max-width: 350px*/
   }
 } 
-/* @media screen and (min-width: 1025) and (max-width:1092) {
+@media screen and (min-width: 1025) and (max-width:1092) {
   .container {
     margin-left: auto;
     justify-content: center;
@@ -348,7 +348,8 @@ max-height: 60%;
     height: auto;
     margin: 1em 8px;
     flex-basis: 100%;
-  } */
+  }
+}
   @media screen and (min-width: 1025px) and (max-width:1092px) {
     .container {
       margin-left: auto;
